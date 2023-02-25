@@ -6,6 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
   file_put_contents($file, date('Y-m-d H:i:s') . " Received message: " . $message . "\n", FILE_APPEND);
 }
 else
+  
 {
 ?>
 <!doctype html>
